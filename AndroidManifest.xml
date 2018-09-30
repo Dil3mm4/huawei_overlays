@@ -5,5 +5,5 @@
     <overlay android:targetPackage="com.android.systemui"
 		android:priority="24"
 		android:category="com.android.internal.display_cutout_emulation"/>
-	<application android:label="@string/display_cutout_emulation_overlay" android:hasCode="false"/>
+    <application android:label="@string/display_cutout_emulation_overlay" android:hasCode="false"/>
 </manifest>

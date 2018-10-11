@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.dil3mm4.huawei.STF"
+        package="com.tadi.notchblackout"
         android:versionCode="1"
         android:versionName="1.0">
-        <overlay android:targetPackage="android"
-		android:priority="4"
-		android:isStatic="true" />
+    <overlay android:targetPackage="com.android.systemui"
+        android:priority="24"
+        android:category="com.android.internal.display_cutout_emulation"/>
+    <application android:label="@string/display_cutout_emulation_overlay" android:hasCode="false"/>
 </manifest>
